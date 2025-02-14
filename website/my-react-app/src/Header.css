@@ -1,0 +1,51 @@
+/* Header.css */
+html, body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    width: 100%; /* Ensure body spans full width */
+    height: 100%; /* Ensure body spans full height */
+}
+
+/* Header Styles */
+.header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align items from left to right */
+    background-color: gray; /* Set background color to gray */
+    color: white; /* Set text color to white */
+    width: 100%; /* Ensure the header spans the entire width */
+    padding: 0 20px; /* Add some padding for spacing */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.logo {
+    position: relative;
+    height: 80%; /* Adjust logo height relative to the header */
+    left: -10px; /* Adjust position if needed */
+}
+
+.header h1 {
+    position: relative;
+    left: 10px; /* Add space between logo and title */
+    margin-right: 20px; /* Add space between title and nav buttons */
+}
+
+.nav-buttons {
+    display: flex; /* Display buttons horizontally */
+    gap: 25px; /* Add space between buttons */
+    margin-left: 20px; /* Ensure space between buttons and the title */
+}
+
+.nav-buttons button {
+    background-color: #333; /* Button background color */
+    color: white; /* Button text color */
+    border: none;
+    padding: 10px 20px; /* Add padding for button size */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.5s ease; /* Smooth transition for hover effect */
+}
+
+.nav-buttons button:hover {
+    background-color: #000000; /* Change background color on hover */
+}

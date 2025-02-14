@@ -1,0 +1,37 @@
+.uploader-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;  /* Ensure full width for proper centering */
+}
+
+.uploader-container h2 {
+    font-size: 4em;
+    color: #8c0000;
+    margin-bottom: 0px;
+    /* Add any other styling you want */
+}
+
+/* Style for the file input field */
+input[type="file"] {
+    width: auto;  /* Prevent stretching */
+    display: inline-block; /* Prevent it from occupying the whole width */
+    margin: 0 auto;  /* Center the input */
+}
+
+label {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+/* Keep file name displayed fully */
+.uploader-container .file-name {
+    white-space: nowrap;   /* Prevent text wrapping */
+    overflow: hidden;      /* Hide overflow */
+    text-overflow: ellipsis; /* Add ellipsis if overflow happens */
+    max-width: 100%;       /* Ensure it doesn't overflow container */
+    display: inline-block; /* Keeps text inline */
+}

@@ -1,0 +1,37 @@
+.calculator-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;  /* Ensure full width for proper centering */
+}
+.calculator-container h2{
+    font-size: 4em;
+    color: #000000;
+    margin-bottom: 0px;
+    /* Add any other styling you want */
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    text-align: center;
+}
+
+button {
+    background-color: rgb(37, 44, 78);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: darkgrey;
+}
